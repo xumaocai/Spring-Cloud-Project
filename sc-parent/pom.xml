@@ -41,5 +41,7 @@
 
 	<modules>
 		<module>sc-config</module>
+		<module>sc-discovery</module>
+		<module>sc-gateway</module>
 	</modules>
 </project>
