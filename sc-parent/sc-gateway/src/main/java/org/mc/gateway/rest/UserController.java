@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 	@Value("${user.name}")
-	private String val;
+	private String val; //在开发中不能用此取值，如果变量一变，刷新配置也不会改变
 	@Autowired
 	private Environment  env;
 	
