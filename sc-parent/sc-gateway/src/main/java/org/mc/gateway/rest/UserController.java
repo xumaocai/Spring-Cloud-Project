@@ -13,6 +13,7 @@ public class UserController {
 	
 	@RequestMapping(value = "/getVal",method = RequestMethod.GET)
 	public String getVal(){
+		System.out.println(val);
 		return val;
 	}
 }
