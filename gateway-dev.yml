@@ -9,3 +9,6 @@ zuul:
     user: 
       path: /user/**
       serviceId: user
+    device: 
+      path: /device/**
+      serviceId: device
