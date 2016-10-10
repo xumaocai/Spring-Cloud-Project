@@ -9,6 +9,6 @@ zuul:
     user: 
       path: /user/**
       serviceId: user
-    device: 
-      path: /device/**
-      serviceId: device
+    book: 
+      path: /book/**
+      serviceId: book
