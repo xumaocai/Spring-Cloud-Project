@@ -1,6 +1,6 @@
 一、概述
 ---
-	Spirng boot不提供Spring框架的核心特性以及扩展功能，是用于快速、敏捷地开发新一代基于Spring框架的应用程序。
+	Spring boot不提供Spring框架的核心特性以及扩展功能，是用于快速、敏捷地开发新一代基于Spring框架的应用程序。
 	也就是说它不是替代Spring的解决方案，而是和Spring框架紧密结合用于提升Spring开发者体验的工具，同时它集成了大
 	量常用的第三方库配置（例如Jackson, JDBC, Mongo, Redis, Mail等等），Spring Boot应用中这些第三方库几乎可
 	以零配置的开箱即用（out-of-the-box），大部分的Spring Boot应用都只需要非常少量的配置代码，开发者能够更加专注于业务逻辑。
