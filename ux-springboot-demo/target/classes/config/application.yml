@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: boot-app
+server:
+  context-path: /boot
+  port: 8080

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: user
+  cloud:
+    config:
+      name: ${spring.application.name} 
+      label: master # optional
+      profile: dev
+      uri: http://localhost:8888
